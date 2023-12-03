@@ -158,5 +158,22 @@ text-decoration: none;}
 .logo-studios{color: #f4f4fd;}
 .default-link{text-decoration: none;}
 
-
+.container{
+        padding: 188px 188px;
+}
+.main-head{
+        max-width: 496px;
+}
+.h-button{
+        display: block;
+        margin: auto;
+}
+.h-button{
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        cursor: pointer;
+}
 
