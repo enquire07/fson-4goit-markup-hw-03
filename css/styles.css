@@ -158,11 +158,32 @@ text-decoration: none;}
 .logo-studios{color: #f4f4fd;}
 .default-link{text-decoration: none;}
 
+
+.head-nav{
+        border-bottom: 1px solid #e7e9fc;
+}
+.main-top{
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+.nav-logo{
+        align-items: center;
+        display: flex;
+}
+.logo-style-link{
+        margin-right: 76px;
+}
+.list-item{
+        display: flex;
+        margin-right: 40px;
+
+}
 .sec-1{
         padding: 188px 188px;
 }
 .main-head{
-        max-width: 496px;
+        font-size: 496px;
 }
 .h-button{
         display: block;
