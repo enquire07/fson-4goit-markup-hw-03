@@ -166,6 +166,11 @@ text-decoration: none;}
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
+        display: flex;
+}
+.main-top ul{
+        list-style: none;
+
 }
 .nav-logo{
         align-items: center;
@@ -176,9 +181,20 @@ text-decoration: none;}
 }
 .list-item{
         display: flex;
-        margin-right: 40px;
-
+        
 }
+.list-item a{
+        margin: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+.list-add{
+        display: flex;
+}
+.list-add{
+         margin: 40px;
+}
+
 .sec-1{
         padding: 188px 188px;
 }
@@ -196,5 +212,12 @@ text-decoration: none;}
         background-color: #4d5ae5;
         border-radius: 4px;
         cursor: pointer;
+}
+.sec-2{
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+.sec-cond{
+        display: flex;
 }
 
