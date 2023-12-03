@@ -177,7 +177,7 @@ text-decoration: none;}
         display: flex;
 }
 .logo-style-link{
-        margin-right: 76px;
+        margin-right: 66px;
 }
 .list-item{
         display: flex;
@@ -191,8 +191,8 @@ text-decoration: none;}
 .list-add{
         display: flex;
 }
-.list-add{
-         margin: 40px;
+.list-add a{
+         margin: 30px;
 }
 
 .sec-1{
