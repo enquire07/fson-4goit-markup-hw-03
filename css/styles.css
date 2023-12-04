@@ -192,9 +192,11 @@ text-decoration: none;}
         display: flex;
 }
 .list-add a{
-         margin: 30px;
+         margin: 40px;
+        margin-left: auto;
+} 
 }
-.sec-1{
+.sec-a{
         padding: 188px 188px;
 }
 .h-button{
@@ -245,6 +247,9 @@ text-decoration: none;}
 }
 .main-foot{
         display: inline-block;
+}
+.img{
+        display: block;
 }
 
 
