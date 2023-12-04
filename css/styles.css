@@ -223,8 +223,29 @@ text-decoration: none;}
 }
 .sec-f{
         margin-bottom: 72px;
-}
 
+}
+.sec-d{
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+.our-t{
+        margin-bottom: 72px;
+}
+.team-picture{
+        margin: 24px;
+}
+.team-mate{
+        display: flex;
+        gap: 24px;
+}
+.main-feet{
+        max-width: 264px;
+        color: #F4F4FD;
+}
+.main-foot{
+        display: inline-block;
+}
 
 
 
