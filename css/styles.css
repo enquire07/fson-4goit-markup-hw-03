@@ -246,7 +246,7 @@ text-decoration: none;}
         gap: 24px;
         justify-content: center;
 }
-}
+
 .our-t{
         margin-bottom: 72px;
 }
@@ -254,13 +254,28 @@ text-decoration: none;}
         margin-bottom: 72px;
 }
 .we-doing{
+        width: calc((100%-48px)/3)
+}
         
 .team-picture{
         margin: 24px;
 }
-.team-mate{
-        display: flex;
+
+.team-picture{
+         display: flex;
         gap: 24px;
+        border-radius: 0px 0px 4px 4px;
+}
+.name-position{
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+.sec-header{
+        text-align: center;
+        margin-bottom: 8px;
+}
+.sec-p{
+        text-align: center;
 }
 .main-feet{
         max-width: 264px;
