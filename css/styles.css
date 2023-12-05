@@ -246,10 +246,17 @@ text-decoration: none;}
         display: flex;
         list-style: none;
         gap: 24px;
+        justify-content: center;
+}
 }
 .our-t{
         margin-bottom: 72px;
 }
+.sec-c{
+        margin-bottom: 72px;
+}
+.we-doing{
+        
 .team-picture{
         margin: 24px;
 }
