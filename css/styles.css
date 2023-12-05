@@ -263,7 +263,10 @@ text-decoration: none;}
         
 .team-picture{
         margin: 24px;
-        width: calc((100%-72px)/4)
+       
+}
+.team-picture{
+         width: calc((100%-72px)/4)
 }
 
 .team-picture{
@@ -280,6 +283,10 @@ text-decoration: none;}
 }
 .sec-p{
         text-align: center;
+}
+.foot_er{
+        padding-top: 100px;
+        padding-bottom: 100px;
 }
 .main-feet{
         max-width: 264px;
