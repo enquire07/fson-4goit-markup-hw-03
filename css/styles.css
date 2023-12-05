@@ -255,14 +255,19 @@ text-decoration: none;}
 }
 .we-doing{
         width: calc((100%-48px)/3)
+} 
+.team-mate{
+        display: flex;
+        gap: 24px;
 }
         
 .team-picture{
         margin: 24px;
+        width: calc((100%-72px)/4)
 }
 
 .team-picture{
-         display: flex;
+         
         gap: 24px;
         border-radius: 0px 0px 4px 4px;
 }
@@ -272,7 +277,6 @@ text-decoration: none;}
 }
 .sec-header{
         text-align: center;
-        margin-bottom: 8px;
 }
 .sec-p{
         text-align: center;
