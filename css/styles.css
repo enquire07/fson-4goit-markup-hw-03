@@ -343,10 +343,10 @@ text-decoration: none;}
         border: 1px solid #e7e9fc;
         border-top: none;
         margin-bottom: 8px;
-}.list-apps{
+}.list-apps link{
         width: calc((100%-48px)/3)
 }
-.sec-app link{
+.sec-app{
         margin-bottom: 8px;
 }
 .h1{
