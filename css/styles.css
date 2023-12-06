@@ -271,9 +271,11 @@ text-decoration: none;}
        
 }
 .team-picture{
-       width: calc((100%-3*24px)/4)
+       width: calc((100%-72px)/4)
 }
-
+.sec-p{
+        text-align: center;
+}
 .team-picture{
          
         gap: 24px;
@@ -343,12 +345,9 @@ text-decoration: none;}
         border: 1px solid #e7e9fc;
         border-top: none;
         margin-bottom: 8px;
-}.list-apps link{
+}.list-apps{
         width: calc((100%-48px)/3)
 }
 .sec-app{
         margin-bottom: 8px;
-}
-.h1{
-        visibility: hidden;
 }
