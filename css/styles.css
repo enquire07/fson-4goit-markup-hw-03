@@ -303,7 +303,8 @@ text-decoration: none;}
         display: block;
 }
 .main-port{
-        padding: 12px 12px 12px 12px;
+        padding-top: 96px;
+        padding-bottom: 120px;
 }
 .all-button{
         display: flex;
@@ -311,22 +312,28 @@ text-decoration: none;}
         justify-content: center;
         gap: 24px;
         margin-bottom: 72px;
-}
+}   
+
 .oll{
         padding-top: 12px;
         padding-bottom: 12px;
         padding-left: 24px;
         padding-right: 24px;
         border: 1px #e7e9fc;
-}
+        border-radius: 4px;
+}   
 .oll:hover{
         border: 1px solid transparent;
 }
 .oll:focus{
         border: 1px solid transparent;
 } 
-.oll{
-        border-radius: 4px;
-}     
+       
+.list link{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+}  
 
 
