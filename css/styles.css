@@ -183,24 +183,26 @@ text-decoration: none;}
         display: flex;      
 }
 
-.list-item a{
-        margin-right: 40px;
+.list-item {
+        margin-right: 40px 0;
         padding-top: 24px;
         padding-bottom: 24px;
 }
-.contact{
-        margin-right: 0;
-}
+
 .list-add{
         display: flex;
         gap: 40px;
 }
 .list-add {
-         margin-right: 40px;
+         margin-right: 40px 0;
+         padding-top: 24px;
+        padding-bottom: 24px;
 } 
 .sec-a{
-        padding: 188px 188px;
-}
+        padding-top: 188px;
+        padding-bottom: 188px;
+} 
+
 .h-button{
         display: block;
         margin: auto;
@@ -213,8 +215,6 @@ text-decoration: none;}
         border-radius: 4px;
         cursor: pointer;
 }
-
-
 .sec-par{
         padding-top: 120px;
         padding-bottom: 120px;
