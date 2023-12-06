@@ -182,21 +182,19 @@ text-decoration: none;}
 .list-item{
         display: flex;      
 }
-
-.list-item {
-        margin-right: 40px 0;
+.style-css{
         padding-top: 24px;
         padding-bottom: 24px;
 }
-
+.list-item {
+        margin-right: 40px 0;
+}
 .list-add{
         display: flex;
+ }      
+.contact-mail{
+         margin-right: 40px 0px;
         gap: 40px;
-}
-.list-add {
-         margin-right: 40px 0;
-         padding-top: 24px;
-        padding-bottom: 24px;
 } 
 .sec-a{
         padding-top: 188px;
