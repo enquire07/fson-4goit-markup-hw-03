@@ -319,7 +319,7 @@ text-decoration: none;}
         padding-bottom: 12px;
         padding-left: 24px;
         padding-right: 24px;
-        border: 1px #e7e9fc;
+        border: 1px solid #e7e9fc;
         border-radius: 4px;
 }   
 .oll:hover{
@@ -329,11 +329,17 @@ text-decoration: none;}
         border: 1px solid transparent;
 } 
        
-.list link{
+.list{
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
 }  
+.bai-c{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        margin-bottom: 8px;
+}
 
 
