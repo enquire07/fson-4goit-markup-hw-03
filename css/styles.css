@@ -349,3 +349,6 @@ text-decoration: none;}
 .sec-app{
         margin-bottom: 8px;
 }
+.h1{
+        visibility: hidden;
+}
