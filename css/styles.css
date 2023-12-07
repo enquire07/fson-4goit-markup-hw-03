@@ -200,6 +200,10 @@ text-decoration: none;}
         padding-top: 188px;
         padding-bottom: 188px;
 } 
+.my-head{
+        transform: center;
+        max-width: 496px;
+}
 
 .h-button{
         display: block;
@@ -282,14 +286,6 @@ text-decoration: none;}
          width: calc((100%-72px)/4);
 }
         
-.team-picture{
-        margin: 24px;
-       
-}
-.team-picture{
-       width: calc((100%-72px)/4);
-       min-width: auto;
-}
 .sec-p{
         text-align: center;
 }
