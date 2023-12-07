@@ -204,8 +204,8 @@ text-decoration: none;}
 } 
 .my-head{
         transform: center;
-        max-width: 496px;
 }
+.h1{ max-width: 496px;}
 
 .h-button{
         display: block;
