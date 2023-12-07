@@ -400,7 +400,7 @@ text-decoration: none;}
          flex-basis: calc((100% - 48px) / 3) }
 .list-apps img{
          display: block;
-        width: 360%;
+        width: 360px;
         height: 300px;
 }
 .list-{
