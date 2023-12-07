@@ -240,13 +240,14 @@ text-decoration: none;}
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
-        overflow: hidden;}
+        overflow: hidden;
 }
+
 .sec-cond{
-        display: flex;
         list-style: none;
+        gap: 24px;
         width: auto;
-        gap: 24px;       
+        display: flex;    
 }
 .my-head{
         max-width: none;
@@ -254,6 +255,7 @@ text-decoration: none;}
 }
 .disc{
         width: calc((100% - 72px) / 4);
+
 }
 .sec-header{
         margin-bottom: 8px;
