@@ -283,7 +283,7 @@ text-decoration: none;}
         margin: 24px;
        
 }
-.team-picture{
+.team-picture img{
        width: calc((100%-72px)/4) ;
 }
 .sec-p{
@@ -293,7 +293,7 @@ text-decoration: none;}
          gap: 24px;
         border-radius: 0px 0px 4px 4px;
 }
-.div{
+.name-position div{
         padding-top: 32px;
         padding-bottom: 32px;
 }
