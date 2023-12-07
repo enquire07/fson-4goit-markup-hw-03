@@ -182,10 +182,9 @@ text-decoration: none;}
 }
 .list-item{
         display: flex;
-        gap: 40px;
-        margin-right: 40px;
+
 } 
-.ul list-item{
+.ul{
         gap: 40px;
 }
         
