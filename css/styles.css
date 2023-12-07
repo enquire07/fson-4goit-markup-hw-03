@@ -294,6 +294,7 @@ text-decoration: none;}
 .team-mate{
         display: flex;
         gap: 24px;
+        justify-content: center;
 }
 .team-mate img{
         display: block;
@@ -303,10 +304,6 @@ text-decoration: none;}
 .team-mate{
          width: calc((100%-72px)/4);
 }
-        
-.sec-p{
-        text-align: center;
-}
 .team-picture{
          gap: 24px;
         border-radius: 0px 0px 4px 4px;
@@ -314,10 +311,6 @@ text-decoration: none;}
 .name-position{
         padding-top: 32px;
         padding-bottom: 32px;
-}
-
-.sec-header{
-        text-align: center;
 }
 .foot_er{
         padding-top: 100px;
@@ -371,6 +364,7 @@ text-decoration: none;}
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
+        justify-content: center;
 }
 .list-apps{
         width: calc((100%-48px) / 3);
