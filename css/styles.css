@@ -178,10 +178,9 @@ text-decoration: none;}
         margin-right: 76px;
 }
 .list-item{
-        list-style: none;
         display: flex;
         gap: 40px;
-        margin-right: 40px;
+        margin-right: 40px 0 auto;
 } 
 .style-css{
         padding-top: 24px;
@@ -191,7 +190,7 @@ text-decoration: none;}
 .list-add{
         display: flex;
         gap: 40px;
-        margin-right: 40px;
+        margin-right: 40px 0 auto;
 }       
 .sec-a{
         padding-top: 188px;
@@ -259,7 +258,9 @@ text-decoration: none;}
 }
 .sec-header{
         margin-bottom: 8px;
+        text-align: center;
 }
+.sec-p{text-align: center;}
         
 .sec-f{
         margin-bottom: 72px;
