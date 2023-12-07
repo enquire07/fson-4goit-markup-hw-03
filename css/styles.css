@@ -185,6 +185,9 @@ text-decoration: none;}
         gap: 40px;
         margin-right: 40px;
 } 
+.ul list-item{
+        gap: 40px;
+}
         
 .list-add{
         display: flex;
