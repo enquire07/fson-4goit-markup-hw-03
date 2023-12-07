@@ -175,6 +175,7 @@ text-decoration: none;}
 .nav-logo{
         align-items: center;
         display: flex;
+
 }
 .logo-style-link{
         margin-right: 76px;
@@ -186,18 +187,13 @@ text-decoration: none;}
 .style-css{
         padding-top: 24px;
         padding-bottom: 24px;
-}
-.list-item {
-        gap: 40px;
-        margin-right: 40px 0;
-}
+        gap: 40px;}
+
 .list-add{
         display: flex;
- }  
- .add-ress{
         gap: 40px;
-        margin: 40px;
- }    
+ }  
+    
 .contact-mail{
          margin-right: 40px 0px;
 
