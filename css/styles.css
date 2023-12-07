@@ -168,7 +168,10 @@ text-decoration: none;}
         padding: 0 15px;
         display: flex;
 }
+.main-top ul{
+        list-style: none;
 
+}
 .nav-logo{
         align-items: center;
         display: flex;
@@ -180,27 +183,23 @@ text-decoration: none;}
 .list-item{
         display: flex;
         gap: 40px;
-        margin-right: 40px 0 auto;
+        margin-right: 40px;
 } 
-.style-css{
-        padding-top: 24px;
-        padding-bottom: 24px;
-}
         
 .list-add{
         display: flex;
         gap: 40px;
-        margin-right: 40px 0 auto;
+        margin-right: 40px;
 }       
 .sec-a{
         padding-top: 188px;
         padding-bottom: 188px;
 } 
 .my-head{
-        margin: auto;
+        transform: center;
         max-width: 496px;
-        
 }
+
 .h-button{
         display: block;
         margin: auto;
@@ -228,39 +227,16 @@ text-decoration: none;}
         width: auto;
         gap: 24px;       
 }
-.visual-hidden{
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
+.my-head{
+        max-width: none;
         
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;}
-.h1-sec{
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
 }
 .disc{
         width: calc((100% - 72px) / 4);
 }
 .sec-header{
         margin-bottom: 8px;
-        text-align: center;
 }
-.sec-p{text-align: center;}
         
 .sec-f{
         margin-bottom: 72px;
@@ -295,7 +271,6 @@ text-decoration: none;}
 .team-mate{
         display: flex;
         gap: 24px;
-        justify-content: center;
 }
 .team-mate img{
         display: block;
@@ -305,6 +280,10 @@ text-decoration: none;}
 .team-mate{
          width: calc((100%-72px)/4);
 }
+        
+.sec-p{
+        text-align: center;
+}
 .team-picture{
          gap: 24px;
         border-radius: 0px 0px 4px 4px;
@@ -312,6 +291,10 @@ text-decoration: none;}
 .name-position{
         padding-top: 32px;
         padding-bottom: 32px;
+}
+
+.sec-header{
+        text-align: center;
 }
 .foot_er{
         padding-top: 100px;
@@ -365,10 +348,7 @@ text-decoration: none;}
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        justify-content: center;
-}
-.list-apps{
-        width: calc((100%-48px) / 3);
+       
 }
  
 .bai-c{
@@ -380,5 +360,6 @@ text-decoration: none;}
 .sec-app{
         margin-bottom: 8px;      
 }
-
-       
+.list-apps{
+         width: calc((100%-48px)/3)
+}
