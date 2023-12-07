@@ -228,6 +228,10 @@ text-decoration: none;}
         width: auto;
         gap: 24px;       
 }
+.my-head{
+        max-width: none;
+        
+}
 .disc{
         width: calc((100% - 72px) / 4);
 }
@@ -280,13 +284,11 @@ text-decoration: none;}
        
 }
 .team-picture{
-       width: fit-content;}
-.sec-p{
-        text-align: center;
+       width: calc((100%-72px)/4) ;
+       margin-right: auto; 
 }
 .team-picture{
-         
-        gap: 24px;
+         gap: 24px;
         border-radius: 0px 0px 4px 4px;
 }
 .name-position{
