@@ -216,10 +216,31 @@ text-decoration: none;}
         padding-top: 120px;
         padding-bottom: 120px;
 }
-.hd2{
-  visibility: hidden;
-  pointer-events: none;
-  position: absolute;
+.h1-sec{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}  
+.visual-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;}
 }
 .sec-cond{
         display: flex;
@@ -236,6 +257,10 @@ text-decoration: none;}
 }
 .sec-header{
         margin-bottom: 8px;
+}
+.style-css{
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
         
 .sec-f{
