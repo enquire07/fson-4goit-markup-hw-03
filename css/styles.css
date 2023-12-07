@@ -200,10 +200,10 @@ text-decoration: none;}
         padding-bottom: 188px;
 } 
 .my-head{
-        transform: center;
+        margin: auto;
         max-width: 496px;
+        
 }
-
 .h-button{
         display: block;
         margin: auto;
@@ -231,10 +231,18 @@ text-decoration: none;}
         width: auto;
         gap: 24px;       
 }
-.my-head{
-        max-width: none;       
-}
-.visual-hidden{visibility: hidden;}
+.visual-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;}
 .h1-sec{visibility: hidden;}
 .disc{
         width: calc((100% - 72px) / 4);
@@ -365,6 +373,6 @@ text-decoration: none;}
 .sec-app{
         margin-bottom: 8px;      
 }
-.list-apps{
-         flex-basis: calc((100%-48px)/3)
+.list-card{
+       width: calc((100%-48px)/3);
 }
