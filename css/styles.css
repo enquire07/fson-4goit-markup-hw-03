@@ -285,13 +285,15 @@ text-decoration: none;}
 }
 .team-picture{
        width: calc((100%-72px)/4) ;
-       margin-right: auto; 
+}
+.sec-p{
+        text-align: center;
 }
 .team-picture{
          gap: 24px;
         border-radius: 0px 0px 4px 4px;
 }
-.name-position{
+.div{
         padding-top: 32px;
         padding-bottom: 32px;
 }
