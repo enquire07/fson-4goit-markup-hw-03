@@ -182,21 +182,24 @@ text-decoration: none;}
 }
 .list-item{
         display: flex;
-        gap: 40px;      
-}
+         gap: 40px;
+        margin: 40px;
+        } 
+             
+
 .style-css{
         padding-top: 24px;
-        padding-bottom: 24px;
-        gap: 40px;}
+        padding-bottom: 24px;}
+       
 
 .list-add{
         display: flex;
-        gap: 40px;
+       
  }  
     
 .contact-mail{
          margin-right: 40px 0px;
-
+         gap: 40px;
 } 
 .sec-a{
         padding-top: 188px;
