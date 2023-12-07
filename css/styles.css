@@ -355,7 +355,7 @@ text-decoration: none;}
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        width: calc((100%-48px)/3)
+       
 }
  
 .bai-c{
@@ -365,6 +365,8 @@ text-decoration: none;}
         margin-bottom: 8px;
 }
 .sec-app{
-        margin-bottom: 8px;
-        
+        margin-bottom: 8px;      
+}
+.list-apps{
+         width: calc((100%-48px)/3)
 }
