@@ -180,7 +180,8 @@ text-decoration: none;}
         margin-right: 76px;
 }
 .list-item{
-        display: flex;      
+        display: flex;
+        gap: 40px;      
 }
 .style-css{
         padding-top: 24px;
@@ -192,8 +193,11 @@ text-decoration: none;}
 }
 .list-add{
         display: flex;
+ }  
+ .add-ress{
         gap: 40px;
- }      
+        margin: 40px;
+ }    
 .contact-mail{
          margin-right: 40px 0px;
 
