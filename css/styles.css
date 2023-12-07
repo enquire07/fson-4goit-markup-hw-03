@@ -232,9 +232,10 @@ text-decoration: none;}
         gap: 24px;       
 }
 .my-head{
-        max-width: none;
-        
+        max-width: none;       
 }
+.visual-hidden{visibility: hidden;}
+.h1-sec{visibility: hidden;}
 .disc{
         width: calc((100% - 72px) / 4);
 }
