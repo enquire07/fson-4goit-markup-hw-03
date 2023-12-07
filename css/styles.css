@@ -105,7 +105,8 @@ cursor: pointer;}
 }
 
 .list-type{list-style-type: none;}
-.what-doing{list-style-type: none;}
+.what-doing{list-style-type: none;
+}
 
 .sec-d{background-color: #F4F4FD;}
 
@@ -285,8 +286,8 @@ text-decoration: none;}
 }
 .what-d img{
          display: block;
-        width: 100%;
-        height: 100%;
+        width: 360px;
+        height: 300px;
 }
 
 .our-t{
@@ -298,17 +299,23 @@ text-decoration: none;}
 .we-doing{
         width: calc((100%-48px)/3)
 } 
+
 .team-mate{
         display: flex;
         gap: 24px;
 }
 .team-mate img{
         display: block;
-        width: 100%;
-        height: 100%;       
+        width: 264px;
+        height: 260px;
+     
 }
 .team-mate{
          width: calc((100%-72px)/4);
+}
+.sec-3{
+        justify-content: center;
+        align-items: center;
 }
         
 .sec-p{
@@ -341,11 +348,7 @@ text-decoration: none;}
         display: inline-block;
         margin-bottom: 16px;
 }
-.list img{
-        display: block;
-        width: 100%;
-        height: 100%;
-}
+
 .main-port{
         padding-top: 96px;
         padding-bottom: 120px;
@@ -395,4 +398,9 @@ text-decoration: none;}
 }
 .list-apps{
          width: calc((100%-48px)/3)
+}
+.list-pic img{
+         display: block;
+        width: 360px;
+        height: 300px;
 }
