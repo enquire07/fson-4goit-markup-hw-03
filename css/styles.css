@@ -40,7 +40,7 @@ font-variant: normal;}
 .style-css:focus{color: #404bbf;}
 
 .add-ress{font-style: normal;
-font-style: normal;}
+}
 .address_mail{list-style: none;}
 .contact-mail{
         font-size: 16px;
@@ -182,33 +182,23 @@ text-decoration: none;}
 }
 .list-item{
         display: flex;
-         gap: 40px;
-        margin: 40px;
-        } 
-             
-
-.style-css{
-        padding-top: 24px;
-        padding-bottom: 24px;}
-       
-
+        gap: 40px;
+        margin-right: 40px;
+} 
+        
 .list-add{
         display: flex;
-       
- }  
-    
-.contact-mail{
-         margin-right: 40px 0px;
-         gap: 40px;
-} 
+        gap: 40px;
+        margin-right: 40px;
+}       
 .sec-a{
         padding-top: 188px;
         padding-bottom: 188px;
 } 
 .my-head{
         transform: center;
+        max-width: 496px;
 }
-.h1{ max-width: 496px;}
 
 .h-button{
         display: block;
