@@ -397,7 +397,10 @@ text-decoration: none;}
         margin-bottom: 8px;      
 }
 .list-apps{
-         flex-basis: calc((100% - 48px) / 3) }
+         flex-basis: calc((100% - 144px) / 3);
+        max-width: 0;
+        }
+         
 .list-apps img{
          display: block;
         width: 360px;
