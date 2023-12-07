@@ -306,7 +306,7 @@ text-decoration: none;}
 }
 .team-mate img{
         display: block;
-        width: 264px;
+        width: 100%;
         height: 260px;
      
 }
