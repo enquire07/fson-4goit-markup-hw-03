@@ -35,6 +35,7 @@ font-variant: normal;}
     color: #2e2f42;
     list-style: none;
     text-transform: capitalize;
+    margin: 40px;
 }
 .style-css:hover{color: #404bbf;}
 .style-css:focus{color: #404bbf;}
@@ -182,16 +183,12 @@ text-decoration: none;}
 }
 .list-item{
         display: flex;
-
+         gap: 40px;
 } 
-.ul{
-        gap: 40px;
-}
         
 .list-add{
         display: flex;
         gap: 40px;
-        margin-right: 40px;
 }       
 .sec-a{
         padding-top: 188px;
@@ -376,13 +373,15 @@ text-decoration: none;}
         border: 1px solid transparent;
 } 
        
-.list{
+.list-pic{
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
         margin-bottom: 48px;
-       
+       margin-top: 48px;
+       justify-content: center;
+       list-style: none;
 }
  
 .bai-c{
