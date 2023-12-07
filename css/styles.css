@@ -52,7 +52,7 @@ font-variant: normal;}
 .contact-mail:focus{color: #404bbf;}
 
 .my-head{background-color:#2e2f42;
-        font-size: 56px; 
+        
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
@@ -196,8 +196,11 @@ text-decoration: none;}
         padding-bottom: 188px;
 } 
 .my-head{
-        transform: center;
+       margin: auto;
         max-width: 496px;
+        font-size: 56px;
+        align-items: center;
+        justify-content: center;
 }
 
 .h-button{
@@ -217,7 +220,13 @@ text-decoration: none;}
         padding-bottom: 120px;
 }
 .h1-sec{
-        ;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
          white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
@@ -237,16 +246,16 @@ text-decoration: none;}
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-
+.sec-1{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+}
 .sec-cond{
         list-style: none;
         gap: 24px;
         width: auto;
         display: flex;    
-}
-.my-head{
-        max-width: none;
-        
 }
 .disc{
         width: calc((100% - 72px) / 4);
