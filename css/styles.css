@@ -258,10 +258,12 @@ text-decoration: none;}
 }
 .disc{
         width: calc((100% - 72px) / 4);
+}
+.sec-p{
+        margin-bottom: 8px;
 
 }
-
-.style-css{
+.style-css{text-align: center;
         padding-top: 24px;
         padding-bottom: 24px;
 }
@@ -391,6 +393,7 @@ text-decoration: none;}
 .list-apps{
          width: calc((100% -48px) / 3);
          padding: 0%;
+         margin: auto;
         }
          
 .list-apps img{
