@@ -259,9 +259,11 @@ text-decoration: none;}
 .disc{
         width: calc((100% - 72px) / 4);
 }
-.sec-p{
+.sec-header{
         margin-bottom: 8px;
-
+}
+.sec-p{
+        text-align: center;
 }
 .style-css{text-align: center;
         padding-top: 24px;
