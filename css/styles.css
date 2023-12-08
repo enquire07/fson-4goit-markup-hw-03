@@ -393,14 +393,13 @@ text-decoration: none;}
         margin-bottom: 8px;      
 }
 .list-apps{
-         width: calc((100% -48px) / 3);
+         flex-basis: calc((100% -48px) / 3);
          padding: 0%;
-         margin: auto;
+         margin: 0%;
         }
          
 .list-apps img{
         display: block;
         width: 360px;
-        height: 300px;
-       
+        height: 300px;      
 }
