@@ -143,10 +143,10 @@ text-decoration: none;}
         background-color: #F4F4FD;
 }
 .all:hover{ color: #ffffff; 
-    background-color: #404bbf;
+        background-color: #404bbf;
 }
 .all:focus{color: #ffffff;
-  background-color: #404BBF;}
+        background-color: #404BBF;}
 .all{cursor: pointer;}
 
 .sec-app{font-weight: 500;
@@ -159,8 +159,7 @@ text-decoration: none;}
 .sec-app:focus{color: #404bbf;}
 .logo-studios{color: #f4f4fd;}
 .default-link{text-decoration: none;}
-
-
+/* homework3*/
 .head-nav{
         border-bottom: 1px solid #e7e9fc;
 }
@@ -397,15 +396,11 @@ text-decoration: none;}
         margin-bottom: 8px;      
 }
 .list-apps{
-         flex-basis: calc((100% - 144px) / 3);
-        max-width: 0;
+         flex-basis: calc((100% -48px) / 3);
         }
          
 .list-apps img{
-         display: block;
+        display: block;
         width: 360px;
         height: 300px;
-}
-.list-{
-        
 }
